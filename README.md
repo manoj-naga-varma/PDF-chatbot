@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 5.) The setx command is used in Windows to set environment variables permanently for the current user session or globally across all sessions. When working with APIs (like Google's APIs), it's common to store sensitive information, such as API keys, in environment variables to keep them secure and accessible without hardcoding them into your application code.
 
-Enter this command 
+Enter this command in the command prompt of your PC
 
 ````
 setx GOOGLE_API_KEY your_api_key
